@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+:root{
+    --var-blue: #020092;
+    --var-gold: #bc8d35;
+}
+
 *{
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    background-color: #e8e8e8;
+}
+
+header{
+    background-color: var(--var-blue);
+    color: var(--var-gold);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
 }
