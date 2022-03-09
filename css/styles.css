@@ -5,7 +5,7 @@
     --gold: #bc8d35;
     --bg-gray: #e8e8e8;
     --text-gray: #4A4A4A;
-
+    --text-light-gray: #AAA;
 }
 
 *{
@@ -106,10 +106,47 @@ a, a:hover {
    align-items: center;
    justify-content: center;
    border-radius: 4px;
+   border: none;
 }
 
 .dsmovie-form-container{
     padding: 40px 0;
     /* Quando passamos apenas dois valores, o primeiro será válido para o exio vertical e o segundo para o eixo horizontal. */
     max-width: 480px;
+}
+
+.dsmovie-form-description{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-form{
+    width: 100%;
+}
+
+.dsmovie-form-description h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-btn-container{
+    height:  100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsmovie-form-group{
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group label{
+    font-size: 14px;
+    color: var(--text-light-gray);
 }
