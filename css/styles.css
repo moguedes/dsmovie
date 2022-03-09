@@ -107,3 +107,9 @@ a, a:hover {
    justify-content: center;
    border-radius: 4px;
 }
+
+.dsmovie-form-container{
+    padding: 40px 0;
+    /* Quando passamos apenas dois valores, o primeiro será válido para o exio vertical e o segundo para o eixo horizontal. */
+    max-width: 480px;
+}
